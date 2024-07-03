@@ -1,7 +1,7 @@
 import numpy as np
 
 from make_data import load, check_exact_data, check_similar_data
-from utils import log, skew2vec, stack, sqrtm
+from AXXB.utils import log, skew2vec, stack, sqrtm
 
 def ls_solve(X,A,B):
     # check_exact_data(X,A,B)

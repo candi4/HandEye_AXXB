@@ -2,7 +2,7 @@ import numpy as np
 import random
 from scipy.spatial.transform import Rotation as R
 
-from utils import stack, TF_random, skew2vec, log, vec2skew, exp
+from AXXB.utils import stack, TF_random, skew2vec, log, vec2skew, exp
 
 
 
