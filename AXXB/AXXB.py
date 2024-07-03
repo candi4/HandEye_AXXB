@@ -3,7 +3,7 @@ import numpy as np
 from AXXB.utils import log, skew2vec, stack, sqrtm
 
 
-class AXXB():
+class AXXBsolver():
     def __init__(self, As:list=[], Bs:list=[]):
         self.As = As
         self.Bs = Bs

@@ -1,6 +1,6 @@
 import numpy as np
 
-from AXXB.AXXB import AXXB
+from AXXB import AXXBsolver
 from make_data import load, check_exact_data, check_similar_data
 
 X, A, B = load("noisy_data.npy")
